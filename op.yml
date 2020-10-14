@@ -73,7 +73,7 @@ run:
           hockeyAppId:
           requestSource:
     - op:
-        pkg: { ref: github.com/opspec-pkgs/azure.group.deployment.create#1.1.0 }
+        pkg: { ref: github.com/nintexplatform/azure.group.create#2.2.0 }
         inputs: 
           subscriptionId:
           loginId:
