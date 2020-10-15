@@ -59,7 +59,7 @@ version: 2.1.0
 run:
   serial:
     - container:
-        image: { ref: 'opspecpkgs/azure.appinsights.create:2.1.0' }
+        image: { ref: 'opspecpkgs/azure.appinsights.create:2.2.0' }
         cmd: [ /cmd.sh ]
         files:
           /cmd.sh:
